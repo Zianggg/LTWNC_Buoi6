@@ -1,0 +1,78 @@
+/* Design tokens — lấy từ DESIGN_SYSTEM.md mục 7.1 */
+:root {
+  /* Nền */
+  --bg-app: #EEF4F0;
+  --bg-canvas: #F6FAF7;
+  --bg-column: #E8F0EA;
+  --surface: #FFFFFF;
+  --surface-muted: #F3F8F4;
+  --surface-hover: #EAF3EC;
+  --surface-selected: #DDF0E3;
+  --overlay: rgba(16, 36, 24, 0.28);
+
+  /* Chữ */
+  --text-primary: #15201A;
+  --text-secondary: #56635B;
+  --text-tertiary: #8C9991;
+  --text-disabled: #B5C0B9;
+  --text-on-accent: #FFFFFF;
+
+  /* Viền */
+  --border-subtle: #E3ECE6;
+  --border-default: #D5E1D9;
+  --border-strong: #B8C9BE;
+
+  /* Màu chính — xanh dương */
+  --accent: #2F80ED;
+  --accent-hover: #1F6FDB;
+  --accent-soft: #EAF2FE;
+
+  /* Màu phụ — xanh lá */
+  --secondary-50: #F0F9F3;
+  --secondary-100: #DDF0E3;
+  --secondary-200: #B9E0C6;
+  --secondary-400: #22A55B;
+  --secondary: #16843F;
+  --secondary-hover: #116B36;
+  --secondary-text: #166F3D;
+  --progress: var(--secondary-400);
+  --progress-track: #E1EBE4;
+
+  /* Ngữ nghĩa */
+  --success: #166F3D;  --success-soft: #DDF0E3;
+  --warning: #D97706;  --warning-soft: #FEF3E2;
+  --danger:  #E5484D;  --danger-soft:  #FDECEC;
+  --info:    #2F80ED;  --info-soft:    #EAF2FE;
+  --neutral: #56635B;  --neutral-soft: #EAF0EC;
+
+  /* Tag */
+  --tag-purple: #7C3AED; --tag-purple-bg: #F2ECFE;
+  --tag-pink: #DB2777;   --tag-pink-bg: #FDEBF4;
+  --tag-blue: #2563EB;   --tag-blue-bg: #E8F0FE;
+  --tag-orange: #C2410C; --tag-orange-bg: #FFF1E6;
+  --tag-green: #15803D;  --tag-green-bg: #E9F7EE;
+  --tag-teal: #0F766E;   --tag-teal-bg: #E4F6F4;
+  --tag-yellow: #A16207; --tag-yellow-bg: #FEF7DC;
+  --tag-gray: #4F5B54;   --tag-gray-bg: #EAF0EC;
+
+  /* Bo góc */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* Bóng */
+  --shadow-xs: 0 1px 2px rgba(16, 40, 24, 0.04);
+  --shadow-sm: 0 1px 3px rgba(16, 40, 24, 0.06), 0 1px 2px rgba(16, 40, 24, 0.04);
+  --shadow-md: 0 4px 12px rgba(16, 40, 24, 0.08);
+  --shadow-lg: 0 12px 32px rgba(16, 40, 24, 0.12), 0 2px 6px rgba(16, 40, 24, 0.06);
+
+  /* Font */
+  --font-sans: "Inter", "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", monospace;
+
+  /* Chuyển động */
+  --ease-out-quick: 120ms ease-out;
+}

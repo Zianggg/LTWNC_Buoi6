@@ -1,0 +1,8 @@
+[
+  { "id": "p1", "name": "Áo thun cotton", "category": "Áo", "price": 199000, "stock": 12, "tag": "blue" },
+  { "id": "p2", "name": "Quần jean slim", "category": "Quần", "price": 459000, "stock": 5, "tag": "purple" },
+  { "id": "p3", "name": "Mũ lưỡi trai", "category": "Phụ kiện", "price": 129000, "stock": 0, "tag": "orange" },
+  { "id": "p4", "name": "Giày sneaker trắng", "category": "Giày", "price": 899000, "stock": 3, "tag": "teal" },
+  { "id": "p5", "name": "Áo khoác gió", "category": "Áo", "price": 549000, "stock": 8, "tag": "blue" },
+  { "id": "p6", "name": "Balo laptop", "category": "Phụ kiện", "price": 389000, "stock": 2, "tag": "orange" }
+]
